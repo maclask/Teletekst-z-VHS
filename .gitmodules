@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/maclask/Teletekst-z-VHS.git
-	branch = master
