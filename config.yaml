@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://teletekst.macieklaskowski.pl
 languageCode: pl-pl
 theme: hugo-theme-stack
 paginate: 1

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Teletekst z kaset VHS</title>
-    <link>https://example.com/tags/</link>
+    <link>https://teletekst.macieklaskowski.pl/tags/</link>
     <description>Recent content in Tags on Teletekst z kaset VHS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Fri, 28 Oct 2005 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2005 00:00:00 +0000</lastBuildDate><atom:link href="https://teletekst.macieklaskowski.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TVN</title>
-      <link>https://example.com/tags/tvn/</link>
+      <link>https://teletekst.macieklaskowski.pl/tags/tvn/</link>
       <pubDate>Fri, 28 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/tvn/</guid>
+      <guid>https://teletekst.macieklaskowski.pl/tags/tvn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XXI w</title>
-      <link>https://example.com/tags/xxi-w/</link>
+      <link>https://teletekst.macieklaskowski.pl/tags/xxi-w/</link>
       <pubDate>Fri, 28 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/xxi-w/</guid>
+      <guid>https://teletekst.macieklaskowski.pl/tags/xxi-w/</guid>
       <description></description>
     </item>
     
