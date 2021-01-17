@@ -3,7 +3,7 @@ languageCode: pl-pl
 theme: hugo-theme-stack
 paginate: 1
 title: Teletekst z kaset VHS
-
+publishDir: docs
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
 
