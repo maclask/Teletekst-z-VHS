@@ -1,0 +1,57 @@
+#teletext-view body {background: black;}
+
+#teletext-view a {color: inherit; text-decoration: inherit;}
+#teletext-view a:hover {color: orange;} #teletext-view  a:active {color: red;}
+#teletext-view  :focus { outline: 0; }
+@font-face {font-family:teletext2; src:url('../teletext2.ttf')}
+@font-face {font-family:teletext4; src:url('../teletext4.ttf')}
+
+#teletext-view .subpage {
+        position:relative; top:0; left:0;
+        float:left; white-space: pre; color:white;background:black;
+	font-family: teletext2;	font-size:0px; line-height:0px;
+//        letter-spacing: -0.25px;
+	border: solid black 10px;
+        border-bottom: solid black 20px;
+        text-shadow: 0 0 1.5px;
+}
+
+#teletext-view .subpage{
+        //filter:blur(0.5px) brightness(120%);
+}
+
+
+#teletext-view .subpage:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index:10;
+
+  background: -webkit-repeating-linear-gradient(
+    top,
+    rgba(0,0,0,0.60) 0px,
+    transparent 1px,
+    transparent 2px,
+    rgba(0,0,0,0.60) 3px
+
+  );
+
+  background-size: 100% 100%;
+  pointer-events:none;
+}
+
+
+
+#teletext-view .f0{color:black;} .f1{color:red;} .f2{color:#00ff00;} .f3{color:yellow;}
+#teletext-view .f4{color:blue;} .f5{color:magenta;} .f6{color:cyan;} .f7{color:white;}
+
+#teletext-view .b0{background:black;} .b1{background:red;} .b2{background:#00ff00;} .b3{background:yellow;}
+#teletext-view .b4{background:blue;} .b5{background:magenta;} .b6{background:cyan;} .b7{background:white;}
+
+#teletext-view .dh{font-family: teletext4; font-size:200%; line-height:100%;}
+
+#teletext-view .fl{text-decoration: blink}

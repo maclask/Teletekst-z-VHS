@@ -1,0 +1,32 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+.subpage {
+	//font-size: 24px !important; 
+	//line-height: 21px !important; 
+}
+
+#teletext-view {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px 0;
+}
+
+.teletext-controls a {
+	background: var(--card-background);
+	box-shadow: var(--shadow-l1);
+	border-radius: var(--tag-border-radius);
+	padding: 8px 20px;
+	color: var(--card-text-color-main);
+	margin-bottom: 10px;
+	margin-right: 5px;
+	font-size: 1.4rem;
+	transition: box-shadow .3s ease;
+	cursor: pointer;
+	&:hover{
+		background: var(--card-background-selected);
+	}
+	&.disabled{
+		background: #ccc;
+		cursor: default;
+	}
+}

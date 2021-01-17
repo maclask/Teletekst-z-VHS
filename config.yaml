@@ -1,0 +1,130 @@
+baseurl: https://example.com
+languageCode: pl-pl
+theme: hugo-theme-stack
+paginate: 1
+title: Teletekst z kaset VHS
+
+# Change it to your Disqus shortname before using
+disqusShortname: hugo-theme-stack
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, pl
+DefaultContentLanguage: pl
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    favicon:
+
+    footer:
+        since: 2020
+        customText:
+
+    dateFormat:
+        published: Jan 02, 2006
+        lastUpdated: Jan 02, 2006 15:04 MST
+
+    sidebar:
+        emoji: 
+        subtitle: Popularna "telegazeta" pozyskana z nagranych programów na kasetach VHS.
+        avatar:
+            local: true
+            src: img/vhs2.png
+
+    article:
+        math: false
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: true
+        provider: disqus
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+            theme: preferred-color-scheme
+
+    widgets:
+        enabled:
+            - search
+            - archives
+            - tag-cloud
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 10
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+menu:
+    main:
+        - identifier: home
+          name: Stona główna
+          url: /
+          weight: -100
+          pre: home
+
+        - identifier: about
+          name: O projekcie
+          url: about
+          weight: -90
+          pre: user
+
+        - identifier: archives
+          name: Archiwum
+          url: archives
+          weight: -70
+          pre: archives
+
+        - identifier: search
+          name: Szukaj
+          url: search
+          weight: -60
+          pre: search
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+markup:
+    highlight:
+        noClasses: false
