@@ -1,27 +1,40 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+title = "O projekcie"
+description = ""
 date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+aliases = ["o-projekcie", "about", "about-us", "about-hugo"]
+author = "Maciej Laskowski"
 license = "CC BY-NC-ND"
-lastmod = "2020-10-09"
+lastmod = "2020-01-31"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Strona jest efektem projektu grupowego przeprowadzonego w ramach studiów magisterskich na wydziale Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej w roku 2020/2021.
 
-Hugo makes use of a variety of open source projects including:
+Celem projektu jest odzyskanie i zarchiwizowanie informacji przekazywanych w systemie teletekstu, a zapisanych (wraz z programami telewizyjnymi) na kasetach VHS.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+# Proces pozyskania teletekstu
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Pozyskanie teletekstu odbywa się poprzez rejestracje materiału filmowego z kasety VHS zawierającej nagraną transmisję telewizyjną. 
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+W niewidzocznej dla widza części ekranu VBI (Vertical Blanking Interval)  zakodowana jest tam informacja teleteksu, czy popularnej "telegazety". Rejestracja musi więc odbywać się za pomocą urządzeia 
+przechwytującego rejestrującego tę część obrazu. W tym projekcie posłużono się kartą telewizyjną Hauppauge WinTV 44914 podłączoną do komputera poprzez złącze PCI. 
+Kaseta odtwarzana była poprzez magnetowid Panasonic NV-SD420. 
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+Do rejestracji oraz zdekodowania teletekstu wykorzystano kod źródłowy projektu [VHS teletext](https://github.com/ali1234/vhs-teletext) udostępnionego na licencji GPL 3.0.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Całość uruchomiona była na systemie Linux przy wspraciu rdzeniów CUDA karty graficznej Nvidia GTX 1660 Ti. 
+
+# Strona internetowa
+
+Strona internetowa stworzona jest dzięki generatorowi stron statycznych [Hugo](https://gohugo.io/). Hostowana jest w [repozytorium GitHub](https://github.com/maclask/Teletekst-z-VHS).
+
+# Autorzy
+
+29@KSMM'2020 Odczyt i archiwizacja teletekstu z nagrań programów telewizyjnych na kasetach VHS 
+ 
+Kierownik projektu: Maciej Laskowski
+
+Członkowie zespołu: Karol Jaros, Maciej Szpiech
+
+Opiekun projektu: dr inż. Piotr Odya
+

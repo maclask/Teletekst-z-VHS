@@ -17,14 +17,15 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://teletekst.macieklaskowski.pl/about/</link>
+      <title>O projekcie</title>
+      <link>https://teletekst.macieklaskowski.pl/o-projekcie/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://teletekst.macieklaskowski.pl/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
+      <guid>https://teletekst.macieklaskowski.pl/o-projekcie/</guid>
+      <description>Strona jest efektem projektu grupowego przeprowadzonego w ramach studiów magisterskich na wydziale Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej w roku 2020/2021.
+Celem projektu jest odzyskanie i zarchiwizowanie informacji przekazywanych w systemie teletekstu, a zapisanych (wraz z programami telewizyjnymi) na kasetach VHS.
+Proces pozyskania teletekstu Pozyskanie teletekstu odbywa się poprzez rejestracje materiału filmowego z kasety VHS zawierającej nagraną transmisję telewizyjną.
+W niewidzocznej dla widza części ekranu VBI (Vertical Blanking Interval) zakodowana jest tam informacja teleteksu, czy popularnej &amp;ldquo;telegazety&amp;rdquo;.</description>
     </item>
     
     <item>
