@@ -34,7 +34,7 @@ Strona internetowa stworzona jest dzięki generatorowi stron statycznych [Hugo](
  
 Kierownik projektu: Maciej Laskowski
 
-Członkowie zespołu: Karol Jaros, Maciej Szpiech
+Członkowie zespołu: Karol Jaros, Maciej Szpiech<!--- No Maciuś to się tu nie napracował-->
 
 Opiekun projektu: dr inż. Piotr Odya
 

@@ -6,6 +6,6 @@ slug: tvp12
 image: 
 tags:
     - TVP
-    - XXIw
+    - XXI w
 ---
 

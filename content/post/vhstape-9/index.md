@@ -6,6 +6,6 @@ slug: polsat09
 image: 
 tags:
     - Polsat
-    - XXIw
+    - XXI w
 ---
 
