@@ -30,3 +30,14 @@
 		cursor: default;
 	}
 }
+body::after {
+	position: fixed;
+	content: "";
+	transform: rotate(40deg);
+	top: 50%;
+	left: -62%;
+	width: 130vw;
+	height: 222px;
+	background: linear-gradient( #F2BF27 0%, 20%, #E94904 20%, 40%, #DC281D 40%, 60%, #A91C41 60%, 80%,#76314E 80%);
+	z-index: -1;
+}
